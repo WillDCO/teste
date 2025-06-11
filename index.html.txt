@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VIDROMAT – Clareza que Protege, Design que Encanta</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">🔷 VIDROMAT</div>
+    <nav class="menu">
+      <a href="#produtos">Produtos</a>
+      <a href="#calculadora">Vidro Sob Medida</a>
+      <a href="#espelhos">Espelhos</a>
+      <a href="#acessorios">Acessórios</a>
+      <a href="#promocoes">Promoções</a>
+      <a href="#contato">Contato</a>
+      <button class="cta">Simule seu Vidro</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Precisão em Vidro Sob Medida. Entrega com Clareza.</h1>
+      <p>Peça direto com cálculo automático e receba atendimento imediato.</p>
+      <div class="hero-buttons">
+        <button class="btn-primary">Fazer Orçamento</button>
+        <button class="btn-secondary">Explorar Produtos</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="produtos" class="produtos">
+    <h2>Catálogo de Produtos</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Vidros Temperados</h3>
+        <p>Para box, sacadas e mais.</p>
+        <button>Ver Detalhes</button>
+      </div>
+      <div class="card">
+        <h3>Espelhos</h3>
+        <p>Decorativos, bisotados, sob medida.</p>
+        <button>Ver Detalhes</button>
+      </div>
+      <div class="card">
+        <h3>Vidros Decorativos</h3>
+        <p>Jateado, canelado e outros estilos.</p>
+        <button>Ver Detalhes</button>
+      </div>
+      <div class="card">
+        <h3>Acessórios</h3>
+        <p>Fechos, suportes, puxadores.</p>
+        <button>Ver Detalhes</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="calculadora" class="calculadora">
+    <h2>Calculadora de Vidro Sob Medida</h2>
+    <form id="form-calc">
+      <input type="number" id="altura" placeholder="Altura (cm)" required />
+      <input type="number" id="largura" placeholder="Largura (cm)" required />
+      <select id="tipo">
+        <option value="temperado">Vidro Temperado</option>
+        <option value="comum">Vidro Comum</option>
+      </select>
+      <select id="acabamento">
+        <option value="lapidado">Lapidado</option>
+        <option value="bisotado">Bisotado</option>
+      </select>
+      <button type="submit">Calcular</button>
+    </form>
+    <div id="resultado"></div>
+  </section>
+
+  <footer class="footer">
+    <p>Na Vidromat, cada medida é feita com precisão — inclusive a sua experiência.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

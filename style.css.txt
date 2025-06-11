@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background: #ffffff;
+  color: #333;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  z-index: 1000;
+}
+
+.menu a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #0077cc;
+}
+
+.cta {
+  background: #B3D4FC;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hero {
+  background: url('fachada-vidro.jpg') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.hero-content {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.btn-primary {
+  background: #B3D4FC;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  margin: 0.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.btn-secondary {
+  background: #E6F2FA;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  margin: 0.5rem;
+  border-radius: 4px;
+}
+
+.produtos {
+  padding: 4rem 2rem;
+  background: #E6F2FA;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.calculadora {
+  padding: 4rem 2rem;
+}
+
+#form-calc input, #form-calc select {
+  display: block;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  width: 80%;
+  max-width: 300px;
+}
+
+#form-calc button {
+  background: #B3D4FC;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.footer {
+  background: #F5F5F5;
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+}
